@@ -13,9 +13,9 @@ augroup vimrcEx
     autocmd FileType text setlocal textwidth=78
 
     autocmd BufReadPost *
-        \ if line("'\"") > 0 && line ("'\"") <= line("$") |
-        \   exe "normal g \"" |
-        \ endif
+            \ if line("'\"") > 0 && line("'\"") <= line("$") |
+            \   exe "normal g`\"" |
+            \ endif
     autocmd BufRead *.md setlocal filetype=markdown
     autocmd BufRead *.markdown setlocal filetype=markdown
     autocmd BufRead *.c setlocal noet sws=4 sw=4
@@ -30,6 +30,7 @@ set showcmd
 set incsearch
 set showmatch
 set hlsearch
+set number
 set relativenumber
 set wildmode=list:longest
 
@@ -45,3 +46,8 @@ set laststatus=2
 let mapleader=","
 
 nnoremap <leader><space> :noh<cr>
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
+augroup autosourcing
+autocmd!
+  autocmd BufWritePost .vimrc source %
+augroup END
