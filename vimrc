@@ -6,7 +6,7 @@ set nocompatible
 
 syntax enable
 set background=dark
-colorscheme vividchalk
+colorscheme atom-dark-256
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:go_fmt_command="goimports"
