@@ -8,6 +8,9 @@ syntax enable
 set background=dark
 colorscheme vividchalk
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:go_fmt_command="goimports"
+
 augroup vimrcEx
     au!
 
