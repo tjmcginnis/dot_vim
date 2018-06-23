@@ -10,6 +10,9 @@ colorscheme vividchalk
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:go_fmt_command="goimports"
+let delimitMate_expand_cr=1
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue Prettier
 
 augroup vimrcEx
     au!
@@ -23,6 +26,8 @@ augroup vimrcEx
     autocmd BufRead *.md setlocal filetype=markdown
     autocmd BufRead *.markdown setlocal filetype=markdown
     autocmd BufRead *.c setlocal noet sws=4 sw=4
+    autocmd BufRead *.go setlocal noexpandtab shiftwidth=4
+    autocmd BufRead *.php setlocal shiftwidth=4
     autocmd FileType gitcommit setlocal spell textwidth=72
 augroup END
 
