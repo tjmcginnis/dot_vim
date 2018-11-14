@@ -6,7 +6,7 @@ set nocompatible
 
 syntax enable
 set background=dark
-colorscheme atom-dark-256
+colorscheme gruvbox
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:go_fmt_command="goimports"
