@@ -43,12 +43,6 @@ augroup ft_go
   au FileType go setlocal noexpandtab shiftwidth=8
 augroup END
 
-augroup ft_php
-  au!
-
-  au FileType php setlocal shiftwidth=4 tabstop=4 softtabstop=4
-augroup END
-
 augroup ft_html
   au!
 
