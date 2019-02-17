@@ -4,9 +4,11 @@ filetype plugin indent on
 
 set nocompatible
 
-syntax enable
-set background=dark
-colorscheme gruvbox
+syntax on
+
+let g:dracula_italic = 0
+colorscheme dracula
+highlight Normal ctermbg=None
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:go_fmt_command="goimports"
