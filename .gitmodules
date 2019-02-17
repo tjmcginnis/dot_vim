@@ -18,5 +18,5 @@
     path = bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive
 [submodule "bundle/vim-polyglot"]
-	path = bundle/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot.git
+    path = bundle/vim-polyglot
+    url = https://github.com/sheerun/vim-polyglot.git
