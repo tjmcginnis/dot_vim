@@ -32,3 +32,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/vim-reason-plus"]
+	path = bundle/vim-reason-plus
+	url = https://github.com/reasonml-editor/vim-reason-plus.git
