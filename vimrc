@@ -13,6 +13,8 @@ highlight Normal ctermbg=None
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:go_fmt_command="goimports"
 let delimitMate_expand_cr=1
+let g:mix_format_on_save = 1
+let g:mix_format_silent_errors = 1
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue Prettier
 
