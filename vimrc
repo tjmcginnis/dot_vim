@@ -4,11 +4,15 @@ filetype plugin indent on
 
 set nocompatible
 
-syntax on
+if (has("nvim"))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+if (has("termguicolors"))
+  set termguicolors
+endif
 
-let g:dracula_italic = 0
-colorscheme dracula
-highlight Normal ctermbg=None
+syntax on
+colorscheme onedark
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:go_fmt_command="goimports"
