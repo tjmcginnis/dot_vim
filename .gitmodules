@@ -31,3 +31,6 @@
 [submodule "bundle/vim-reason-plus"]
     path = bundle/vim-reason-plus
     url = https://github.com/reasonml-editor/vim-reason-plus.git
+[submodule "bundle/elm-vim"]
+	path = bundle/elm-vim
+	url = https://github.com/ElmCast/elm-vim.git

@@ -20,6 +20,8 @@ let delimitMate_expand_cr=1
 let g:mix_format_on_save = 1
 let g:mix_format_silent_errors = 1
 let g:prettier#autoformat = 0
+let g:elm_format_autosave = 1
+let g:elm_format_fail_silently = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.vue Prettier
 
 autocmd StdinReadPre * let s:std_in=1
