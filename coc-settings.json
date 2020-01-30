@@ -1,0 +1,12 @@
+{
+  "python.jediEnabled": false,
+  "python.formatting.provider": "black",
+  "coc.preferences.formatOnSaveFiletypes": ["python"],
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+}
