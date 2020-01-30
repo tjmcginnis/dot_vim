@@ -14,7 +14,7 @@ endif
 syntax on
 colorscheme onedark
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+set rtp+=/usr/local/opt/fzf
 let g:go_fmt_command="goimports"
 let delimitMate_expand_cr=1
 let g:mix_format_on_save = 1
