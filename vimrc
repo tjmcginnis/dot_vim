@@ -141,7 +141,7 @@ if (has("termguicolors"))
 endif
 
 syntax on
-colorscheme onedark
+colorscheme xcodedark
 
 set rtp+=/usr/local/opt/fzf
 let g:go_fmt_command="goimports"
