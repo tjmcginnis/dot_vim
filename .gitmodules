@@ -10,30 +10,15 @@
 [submodule "bundle/vim-prettier"]
     path = bundle/vim-prettier
     url = https://github.com/prettier/vim-prettier
-[submodule "bundle/vim-fugitive"]
-    path = bundle/vim-fugitive
-    url = https://github.com/tpope/vim-fugitive
 [submodule "bundle/vim-polyglot"]
     path = bundle/vim-polyglot
     url = https://github.com/sheerun/vim-polyglot.git
-[submodule "bundle/vim-elixir"]
-    path = bundle/vim-elixir
-    url = https://github.com/elixir-editors/vim-elixir.git
-[submodule "bundle/vim-mix-format"]
-    path = bundle/vim-mix-format
-    url = https://github.com/mhinz/vim-mix-format.git
 [submodule "bundle/vim-javascript"]
     path = bundle/vim-javascript
     url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/vim-jsx"]
     path = bundle/vim-jsx
     url = https://github.com/mxw/vim-jsx.git
-[submodule "bundle/vim-reason-plus"]
-    path = bundle/vim-reason-plus
-    url = https://github.com/reasonml-editor/vim-reason-plus.git
-[submodule "bundle/elm-vim"]
-	path = bundle/elm-vim
-	url = https://github.com/ElmCast/elm-vim.git
 [submodule "bundle/coc.nvim"]
 	path = bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
