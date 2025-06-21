@@ -1,6 +1,6 @@
 call plug#begin('~/config/.nvim/plugged')
-Plug 'fatih/vim-go'
-Plug 'plasticboy/vim-markdown'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'github/copilot.vim'
 call plug#end()
 
 if (has("nvim"))
@@ -72,3 +72,9 @@ augroup autosourcing
 autocmd!
   autocmd BufWritePost .vimrc source %
 augroup END
+
+set completeopt=noselect
+
+lua << EOF
+require'nvim-treesitter.configs'.setup{highlight={enable=true}}
+EOF
